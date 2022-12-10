@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "329601041616",
+    "project_id": "hhtt-note",
+    "storage_bucket": "hhtt-note.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329601041616:android:4aee8fbdd6c40a169bcad5",
+        "android_client_info": {
+          "package_name": "com.hhtt.hhtt_note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329601041616-9c8h354rk3mc790o0abr06vran023mde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvPMorTOVdAD1__IKqwvJhMz7HIsoPv0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329601041616-9c8h354rk3mc790o0abr06vran023mde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
