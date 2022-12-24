@@ -18,7 +18,7 @@ public class Utility {
 
     static CollectionReference getCollectionReferenceForNotes(){
         FirebaseUser curentUser = FirebaseAuth.getInstance().getCurrentUser();
-        return FirebaseFirestore.getInstance().collection("notes").document(curentUser.getUid()).collection("my_notes");
+        return FirebaseFirestore.getInstance().collection("notes").document(curentUser.getUid()).collection(curentUser.getEmail());
     }
 
     static String timestampToString(Timestamp timestamp){
