@@ -59,7 +59,7 @@ public class NoteDetailActivity extends AppCompatActivity {
     void SaveNote(){
         String noteTitle = titleEditText.getText().toString();
         String noteContent = contentEditText.getText().toString();
-        if(noteTitle == null || noteContent == null){
+        if(noteTitle == null || noteTitle.isEmpty()){
             titleEditText.setError("Tiêu đề không hợp lệ");
             return;
         }
